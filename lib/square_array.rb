@@ -1,4 +1,4 @@
-def square_array(numbers)
+def square_array(array)
 
   counter = 0
 
@@ -9,6 +9,6 @@ def square_array(numbers)
   end
 
 end
-aaa = [1,2,3]
+numbers = [1,2,3]
 
-square_array(aaa)
+square_array(numbers)
