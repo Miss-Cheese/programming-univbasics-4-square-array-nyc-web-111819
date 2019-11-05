@@ -1,7 +1,7 @@
-def square_array#(array)
+def square_array(numbers)
 
   counter = 0
-  numbers = [1,2,3]
+
 
   while numbers[counter] do
     puts numbers[counter]*numbers[counter]
@@ -10,4 +10,4 @@ def square_array#(array)
 
 end
 
-square_array
+square_array()
